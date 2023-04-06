@@ -1,0 +1,847 @@
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+
+
+}
+
+body {
+    font-family: 'Manrope', Courier, monospace;
+    overflow-x: hidden;
+
+
+}
+
+.metrika {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: 'Manrope';
+    font-size: 60px;
+    width: 956px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 60px;
+    text-align: left;
+    color: black;
+    margin-top: 73px;
+    margin-bottom: 30px;
+    letter-spacing: -0.03em
+}
+
+h2 {
+    font-family: 'Manrope';
+    font-size: 45px;
+    line-height: 61px;
+    font-weight: 400;
+}
+
+.headline_img {
+    width: 1150px;
+    height: 500px;
+    background-image: url('../resourse/Decor.png');
+    color: white;
+
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+
+.headline_text {
+    font-size: 20px;
+    line-height: 27px;
+    font-weight: 400;
+    width: 428px;
+    top: 380px;
+    left: 40px;
+    position: relative;
+    letter-spacing: -0.03em;
+}
+
+.about_us {
+    margin-bottom: 30px;
+    margin-top: 120px;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 400;
+    text-align: left;
+    color: black;
+    left: 125px;
+}
+
+.about_us-text {
+    color: black;
+    padding-bottom: 30px;
+    width: 1082px;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 61px;
+    letter-spacing: -0.03em;
+
+}
+
+.btn {
+    font-size: 20px;
+    padding: 23px 40px;
+    text-decoration: none;
+    background-color: #AD1818;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    margin-top: 2px;
+    display: inline-block;
+}
+
+
+
+.headline {
+    width: 100%;
+    max-width: 1150px;
+    margin-left: 125px;
+    box-sizing: border-box;
+    letter-spacing: -0.03em;
+}
+
+.structure {
+    letter-spacing: -0.03em;
+}
+
+
+
+
+
+
+.container {
+    width: 1150px;
+    margin: 0 auto;
+}
+
+.subject {
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    margin-top: 150px;
+    margin-bottom: 30px;
+    color: black;
+}
+
+.projects__card {
+   
+    margin-bottom: 58px;
+}
+
+.projects__card-img {
+    
+    width: 1150px;
+    
+}
+
+
+.projects__card-link {
+    color: #AD1818;
+    font-size: 20px;
+    line-height: 27px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.projects__card-name {
+    font-size: 25px;
+    line-height: 34px;
+    margin-bottom: 10px;
+    margin-top: 13px;
+
+}
+
+.projects__open {
+    margin-top: 90px;
+}
+
+
+.button {
+    width: 100%;
+    height: 153px;
+    border: 1px solid #AD1818;
+    border-radius: 5px;
+    color: #AD1818;
+    background-color: #FFFFFF;
+    margin-bottom: 150px;
+    font-size: 30px;
+    line-height: 41px;
+}
+
+.butto:hover {
+    color: #FFFFFF;
+    background-color: #AD1818;
+}
+
+.services {
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #121212;
+    padding-top: 151px;
+    padding-bottom: 150px;
+
+}
+
+.services img {
+    width: 100%;
+}
+
+.features {
+    max-width: 1150px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.tag {
+    margin-bottom: 30px;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.services__cards-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 47px
+}
+
+.services__card {
+    position: relative;
+    width: calc(50% - 5px);
+}
+
+.services__card-img {
+    margin-bottom: 19px;
+}
+
+.text-h3.services__card-title {
+    font-size: 30px;
+    line-height: 41px;
+    color: #FFFFFF;
+}
+
+.services__card-price {
+    padding: 5px 21px;
+    position: absolute;
+    top: 29px;
+    left: 29px;
+    color: #FFFFFF;
+    border: 1px solid #AD1818;
+    background-color: #AD1818;
+    border-radius: 5px;
+    font-size: 22px;
+    line-height: 30px;
+}
+
+
+.services__order {
+    margin-bottom: 102px;
+}
+
+.btn_order {
+    margin-top: 106px;
+    width: 100%;
+    height: 153px;
+    border: 1px solid #AD1818;
+    background-color: #AD1818;
+    color: #FFFFFF;
+    border-radius: 5px;
+    font-size: 30px;
+    line-height: 41px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.reviews {
+    padding-top: 150px;
+    padding-bottom: 156px;
+    max-width: 1150px;
+    margin: 0 auto;
+}
+
+.reviews_tag {
+    margin-bottom: 30px;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+}
+
+.reviews__cards-grid {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 80px;
+}
+
+.reviews__card-title {
+    margin-bottom: 14px;
+    font-size: 45px;
+    line-height: 61px;
+
+}
+
+.reviews__card-text {
+    font-size: 22px;
+    line-height: 30px;
+}
+
+.reviews__card {
+    width: calc(50% - 25px);
+}
+
+.reviews__card-big {
+    width: 75%;
+}
+
+
+
+
+
+.logo_link {
+    display: inline-block;
+    margin-right: 480px;
+    margin-left: 125px;
+    margin-top: 33px;
+}
+
+.navigation {
+    display: inline-block;
+}
+
+.navigation__link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: -0.03em;
+    margin-left: 60px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #121212;
+
+}
+
+.navigation__link:hover {
+    color: #898989;
+    text-decoration: underline;
+}
+
+
+.scenre {
+    width: 1400px;
+    height: 717px;
+    background-image: url('../resourse/bed.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.forest h3 {
+    font-family: 'Manrope';
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 41px;
+    letter-spacing: -0.03em;
+    padding-left: 125px;
+    padding-bottom: 60px;
+    padding-right: 832px;
+    padding-top: 575px;
+    color: #FFFFFF;
+    margin-top: 0px;
+}
+
+.contacts {
+    margin-top: 186px;
+    margin-right: 1186px;
+    margin-left: 125px;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+
+}
+
+.contacts h3::before {
+    content: '';
+    display: block;
+    margin-bottom: 13px;
+    width: 13px;
+    height: 22px;
+    background-image: url('../resourse/Phone.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.nomber a {
+    width: 472px;
+    height: 73px;
+    display: inline-block;
+    font-size: 60px;
+    line-height: 0px;
+    letter-spacing: -0.03em;
+    color: black;
+    text-decoration: none;
+    margin-top: 32px;
+
+
+}
+
+.contacts {
+
+    left: 8.86%;
+    right: 84.71%;
+    top: 91.73%;
+    bottom: 7.92%;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #121212;
+}
+
+.mail a {
+    font-size: 60px;
+    color: #898989;
+    text-decoration: none;
+    border-bottom: 2px solid;
+    text-transform: none;
+
+}
+
+.contacts h3 {
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 60px;
+    font-weight: 400px;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+}
+
+.footer {
+    margin-top: 160px;
+    background-color: #121212;
+    background-size: 100%;
+    min-width: 1150px;
+    height: 229px;
+
+}
+
+.block_footer {
+    text-align: center;
+}
+
+.menu_footer {
+    display: inline-block;
+    margin-left: 470px;
+    font-size: 18px;
+    line-height: 25px;
+    text-decoration: none;
+    margin-top: 60px;
+    margin-left: 54px;
+    color: #FFFFFF;
+    background-color: #121212;
+    text-align: center;
+}
+
+.menu_footer:hover {
+    background-color: #121212;
+    opacity: 0.5;
+    text-decoration: underline;
+    color: #FFFFFF;
+}
+
+.studio {
+    width: 389px;
+    height: 27px;
+    margin-left: 509px;
+    margin-top: 87px;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+    opacity: 0.5;
+    text-align: center;
+
+}
+
+
+@media (max-width: 1199px) {
+    .headline {
+        width: 100%;
+        padding-left: 16px;
+        padding-right: 16px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .title {
+        width: 100%;
+        font-size: 50px;
+        line-height: 60px;
+        margin-right: 0px;
+        margin-right: 0px;
+    }
+
+    .headline_img {
+        width: 100%;
+        
+
+    }
+
+    .headline_text {
+        bottom: 30px;
+        top: 373px;
+    }
+
+
+    .about_us {
+        width: 100%;
+        padding-bottom: 30px;
+        margin-left: 0px;
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .about_us-text {
+        width: 100%;
+        padding-bottom: 30px;
+        margin-left: 0px;
+        font-size: 35px;
+        line-height: 48px;
+    }
+
+    .container {
+        padding-left: 17px;
+        padding-right: 17px;
+    }
+
+    .subject{
+        margin-top: 120px;
+    }
+
+    .tag {
+        font-size: 18px;
+        line-height: 25px;
+        text-transform: uppercase;
+    }
+
+    .projects__card {
+        margin-bottom: 48px;
+    }
+
+    .projects__card-img {
+        width: 100%;
+      
+    }
+
+    .projects__card-name {
+        font-size: 30px;
+        line-height: 41px;
+        width: 100%;
+    }
+
+    .projects__card-link {
+        color: #AD1818;
+        font-size: 20px;
+        line-height: 27px;
+        width: 100%;
+
+    }
+
+    .projects__open {
+        margin-top: 102px;
+    }
+
+
+    .button {
+        font-size: 22px;
+        line-height: 30px;
+        height: 100px;
+    }
+
+
+
+    .services {
+        width: 100%;
+        padding-bottom: 120px;
+    }
+
+    .features {
+        width: 100%;
+        padding-left: 16px;
+        padding-right: 16px;
+        margin: 0;
+    }
+
+    .tag {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+
+
+    .services__cards-grid {
+        row-gap: 83px;
+    }
+
+    .services__card-img {
+        margin-bottom: 16px;
+        max-width: 100%;
+    }
+
+    .text-h3.services__card-title {
+        font-size: 25px;
+        line-height: 34px;
+    }
+
+    .services__order {
+        margin-top: 85px;
+    }
+
+    .btn_order {
+        font-size: 30px;
+        line-height: 41px;
+    }
+
+    .reviews {
+        width: 100%;
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-top: 117px;
+        padding-bottom: 120px;
+    }
+
+
+    .reviews__cards-grid {
+        row-gap: 52px;
+    }
+
+    .reviews__card {
+        width: calc(50% - 5px);
+    }
+
+    .reviews__card-title {
+        margin-bottom: 25px;
+        font-size: 35px;
+        line-height: 48px;
+    }
+
+    .reviews__card-text {
+        font-size: 20px;
+        line-height: 27px;
+    }
+
+    .reviews__card-big {
+        width: 75%;
+    }
+
+
+
+
+
+
+
+
+
+
+    @media (max-width: 767px) {
+        .headline {
+            width: 100%;
+            padding-left: 13px;
+            padding-right: 13px;
+            margin-left: 0px;
+            overflow: hidden;
+        }
+
+        .title {
+            width: 100%;
+            font-size: 30px;
+            line-height: 32px;
+            margin-left: 0px;
+        }
+
+        .headline_img {
+            width: 100%;
+            height: 304px;
+
+        }
+
+        .headline_text {
+            width: 90%;
+            bottom: 15px;
+            font-size: 16px;
+            line-height: 22px;
+            top: 201px;
+            left: 15px;
+
+        }
+
+        .about_us {
+            width: 100%;
+            padding-top: 80px;
+            margin: 0 0 0 0;
+            font-size: 18px;
+            line-height: 25px;
+
+        }
+
+        .about_us-text {
+            width: 100%;
+            margin-left: 0px;
+            font-size: 22px;
+            line-height: 30px;
+        }
+
+        .btn {
+            padding: 17px 27px;
+            font-size: 16px;
+
+        }
+
+        .container {
+            width: 100%;
+            padding-left: 13px;
+            padding-right: 13px;
+        }
+
+        .subject {
+            font-size: 14px;
+            line-height: 19px;
+        }
+
+        .projects__card {
+            margin-bottom: 30px;
+            margin-top: 20px;
+        }
+
+        .projects__card-img {
+            
+            width: 100%;
+        }
+
+        .projects__card-name {
+            font-size: 18px;
+            line-height: 25px;
+            width: 100%;
+        }
+
+        .projects__card-link {
+            font-size: 16px;
+            line-height: 22px;
+            width: 100%;
+            margin-bottom: 49px;
+        }
+
+        .projects__open {
+            margin-top: 60px;
+        }
+
+
+        .button {
+            font-size: 22px;
+            line-height: 30px;
+            height: 100px;
+        }
+
+        .services {
+            width: 100%;
+            padding-top: 80px;
+            padding-bottom: 77px;
+        }
+
+        .features {
+            padding-left: 13px;
+            padding-right: 13px;
+            margin: 0;
+            width: 100%;
+        }
+
+        .tag {
+            font-size: 14px;
+            line-height: 19px;
+
+        }
+
+        .services__card {
+            width: 100%;
+        }
+
+
+        .services__cards-grid {
+            row-gap: 46px;
+            flex-direction: column;
+        }
+
+        .services__card-img {
+            width: 100%;
+            margin-bottom: 10px;
+        }
+
+        .services__card-price {
+            padding: 5px 24px;
+            font-size: 14px;
+            line-height: 19px;
+            top: 23px;
+            left: 24px;
+        }
+
+        .text-h3.services__card-title {
+            font-size: 18px;
+            line-height: 25px;
+        }
+
+        .services__order {
+            margin-top: 45px;
+        }
+
+        .btn_order {
+            font-size: 22px;
+            line-height: 30px;
+            height: 100px;
+            width: 100%;
+        }
+
+        .reviews {
+            padding-left: 13px;
+            padding-right: 13px;
+        }
+
+        .reviews__card-title {
+            font-size: 14px;
+            line-height: 19px;
+        }
+
+        .reviews__cards-grid {
+            row-gap: 74px;
+        }
+
+        .reviews__card {
+            width: 100%;
+        }
+
+        .reviews__card-title {
+            margin-bottom: 10px;
+            font-size: 25px;
+            line-height: 34px;
+        }
+
+        .reviews__card-text {
+            font-size: 16px;
+            line-height: 22px;
+        }
+
+    }
+
+} @media (max-width: 400px) {
+    .headline_img {
+        background-image: url(../resourse/headline_mobile.png);
+    }
+}
